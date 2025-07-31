@@ -20,7 +20,8 @@ public class CalculatorMain
         }
 
         Calculator cal = new Calculator();
-        System.out.println(cal.add(number1, number2));
+        System.out.println("Doing Addition of : " + number1 + " and " + number2);
+        System.out.println("result : " + cal.add(number1, number2));
 
     }
 }
